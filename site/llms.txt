@@ -1,0 +1,34 @@
+# AI Chat Backup: ChatGPT to Notion, Obsidian & Markdown
+
+> AI Chat Backup: ChatGPT to Notion, Obsidian & Markdown is a Chrome extension for exporting conversations from ChatGPT and other supported AI platforms to Notion, Markdown files, and local folders such as Obsidian vaults.
+
+This site is the public documentation and support hub for AI Chat Backup. The extension itself is distributed through the Chrome Web Store; its source code is not included in this documentation repository. Local Markdown export does not require a Notion account. Notion content is sent only when the user chooses a sync action.
+
+Supported AI platforms documented by the project are ChatGPT, Claude, Gemini, Google AI Studio, Perplexity, Poe, and Grok. Platform interface changes may temporarily affect conversation extraction.
+
+## Product
+
+- [AI Chat Backup: ChatGPT to Notion, Obsidian & Markdown](https://lnmput.github.io/chatgpt-to-notion/): Product overview, supported platforms, export destinations, and common questions
+- [Install AI Chat Backup](https://chromewebstore.google.com/detail/chatgpt-ai-chat-backup-ma/oedpeddiacomhhfieanenlmdghkolgng): Official Chrome Web Store listing
+
+## ChatGPT Export Guides
+
+- [Export ChatGPT to Notion](https://lnmput.github.io/chatgpt-to-notion/chatgpt-to-notion/): Connect an authorized Notion workspace and sync selected conversations
+- [Export ChatGPT to Markdown](https://lnmput.github.io/chatgpt-to-notion/chatgpt-to-markdown/): Create portable conversation files with useful document structure
+- [Save ChatGPT to Obsidian](https://lnmput.github.io/chatgpt-to-notion/chatgpt-to-obsidian/): Write Markdown exports into a user-selected Obsidian vault folder
+- [Bulk Export ChatGPT Conversations](https://lnmput.github.io/chatgpt-to-notion/bulk-export-chatgpt/): Process compatible ChatGPT history pages in smaller, more reliable batches
+
+## Other AI Platform Guides
+
+- [Export Claude to Notion](https://lnmput.github.io/chatgpt-to-notion/claude-to-notion/): Save long-form Claude conversations to Notion or Markdown
+- [Export Gemini to Notion](https://lnmput.github.io/chatgpt-to-notion/gemini-to-notion/): Save Gemini conversations to Notion, Markdown, or Obsidian
+
+## Support and Policies
+
+- [Documentation Repository](https://github.com/lnmput/chatgpt-to-notion): Installation, user guides, Notion setup, troubleshooting, and frequently asked questions
+- [Issue Tracker](https://github.com/lnmput/chatgpt-to-notion/issues): Public bug reports and feature requests; private conversations and credentials must not be posted
+- [Privacy Policy](https://chrome-extensions-page.vercel.app/ai-chat-backup/privacy): Data handling and privacy information
+
+## Optional
+
+- [Sitemap](https://lnmput.github.io/chatgpt-to-notion/sitemap.xml): Complete list of indexable pages on this documentation site
