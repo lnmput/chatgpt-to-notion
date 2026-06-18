@@ -6,6 +6,8 @@ AI Chat Backup is a Chrome extension for saving AI conversations outside the cha
 
 This repository is the public documentation and support hub for the extension. It contains installation instructions, user guides, troubleshooting steps, frequently asked questions, and feedback channels.
 
+[![AI Chat Backup exports ChatGPT, Claude, Gemini, Grok, Perplexity, Poe, and Google AI Studio conversations to Notion](assets/ai-chat-backup-chatgpt-to-notion.png)](https://chromewebstore.google.com/detail/chatgpt-ai-chat-backup-ma/oedpeddiacomhhfieanenlmdghkolgng)
+
 ## Install the Chrome extension
 
 1. Open [AI Chat Backup in the Chrome Web Store](https://chromewebstore.google.com/detail/chatgpt-ai-chat-backup-ma/oedpeddiacomhhfieanenlmdghkolgng).
