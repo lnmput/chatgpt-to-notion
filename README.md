@@ -1,3 +1,13 @@
+# Star Me
+
+<a href="https://starme.dev/">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://assets.starme.dev/badge:v1:lnmput/chatgpt-to-notion:style=free:trail=1:border=1" />
+   <source media="(prefers-color-scheme: light)" srcset="https://assets.starme.dev/badge:v1:lnmput/chatgpt-to-notion:style=free:trail=1:border=1" />
+   <img alt="Star Me Badge" src="https://assets.starme.dev/badge:v1:lnmput/chatgpt-to-notion:style=free:trail=1:border=1" />
+ </picture>
+</a>
+
 # ChatGPT to Notion, Markdown & Obsidian | AI Chat Backup
 
 [Install AI Chat Backup from the Chrome Web Store](https://chromewebstore.google.com/detail/chatgpt-ai-chat-backup-ma/oedpeddiacomhhfieanenlmdghkolgng)
