@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Installation and troubleshooting
+    url: https://github.com/lnmput/chatgpt-to-notion/blob/main/docs/TROUBLESHOOTING.md
+    about: Review common export, Notion, Markdown, and Obsidian solutions.
+  - name: Chrome Web Store
+    url: https://chromewebstore.google.com/detail/chatgpt-ai-chat-backup-ma/oedpeddiacomhhfieanenlmdghkolgng
+    about: Install or update AI Chat Backup.

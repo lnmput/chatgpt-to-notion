@@ -1,0 +1,49 @@
+name: Feature request
+description: Suggest a platform, export format, workflow, or accessibility improvement
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: What is difficult or impossible in the current workflow?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: Describe what you want to accomplish.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Product area
+      options:
+        - ChatGPT export
+        - Other AI platform
+        - Markdown
+        - Obsidian
+        - Notion
+        - Batch export
+        - Accessibility
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Current workaround
+      description: How do you handle this today?
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues and requests.
+          required: true
+        - label: This request does not contain private conversation content.
+          required: true

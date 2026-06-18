@@ -1,0 +1,92 @@
+name: Bug report
+description: Report an export, formatting, Notion, Obsidian, or platform compatibility problem
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem. Remove private conversations, tokens, cookies, personal information, and confidential screenshots before submitting.
+  - type: input
+    id: extension-version
+    attributes:
+      label: Extension version
+      description: Find this in chrome://extensions or AI Chat Backup settings.
+      placeholder: "2.1.5"
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and operating system
+      placeholder: "Chrome 137 on macOS 15"
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: AI platform
+      options:
+        - ChatGPT
+        - Claude
+        - Gemini
+        - Google AI Studio
+        - Perplexity
+        - Poe
+        - Grok
+        - Extension settings or popup
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: destination
+    attributes:
+      label: Export destination
+      options:
+        - Markdown download
+        - Local folder or Obsidian
+        - Notion
+        - Batch export
+        - Not applicable
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Provide the smallest reliable sequence.
+      placeholder: |
+        1. Open...
+        2. Select...
+        3. Observe...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Sanitized diagnostics
+      description: Add error text or a sanitized screenshot. Do not include private conversation content or credentials.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I updated the extension and reproduced the problem.
+          required: true
+        - label: I searched existing issues.
+          required: true
+        - label: I removed private content and credentials.
+          required: true
