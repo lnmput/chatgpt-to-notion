@@ -10,17 +10,17 @@
   <header class="site-header"><nav class="nav" aria-label="Main navigation"><a class="brand" href="../" aria-label="AI Chat Backup home"><span class="brand-mark" aria-hidden="true">AI</span>AI Chat Backup</a><div class="nav-links"><a href="../#guides">Guides</a><a href="https://github.com/lnmput/chatgpt-to-notion">Help</a></div><a class="button" href="https://chromewebstore.google.com/detail/chatgpt-ai-chat-backup-ma/oedpeddiacomhhfieanenlmdghkolgng">Add to Chrome</a></nav></header>
   <main id="main" class="article">
     <p class="breadcrumb"><a href="../">AI Chat Backup</a> / ChatGPT to Obsidian</p><p class="eyebrow">Local knowledge base guide</p>
-    <h1>Save ChatGPT conversations directly to Obsidian.</h1>
-    <p class="lede">Choose a folder inside your Obsidian vault and let AI Chat Backup write future conversation exports there as Markdown notes.</p>
+    <h1>Save ChatGPT directly to Obsidian.</h1>
+    <p class="lede">Choose a folder inside your Obsidian vault once. When permission is available, AI Chat Backup writes future Markdown exports directly into that folder instead of the browser downloads directory.</p>
     <div class="actions"><a class="button" href="https://chromewebstore.google.com/detail/chatgpt-ai-chat-backup-ma/oedpeddiacomhhfieanenlmdghkolgng">Install AI Chat Backup</a></div>
     <h2>Choose your Obsidian export folder</h2>
     <ol><li>Open the extension settings.</li><li>Open the <strong>Export</strong> section.</li><li>Under <strong>Markdown Export Folder</strong>, select <strong>Choose Folder</strong>.</li><li>Choose an existing folder inside the active Obsidian vault.</li><li>Approve write access when Chrome requests it.</li></ol>
     <h2>Export and find the note</h2>
-    <p>Open a ChatGPT or other supported AI conversation, select the export action, then return to Obsidian. Obsidian detects standard Markdown files automatically. If the note does not appear, refresh the file explorer or confirm that the selected folder belongs to the open vault.</p>
+    <p>Open a supported AI conversation, wait for the response to finish, and select <strong>Export Chat</strong>. Obsidian detects the new Markdown file automatically. If it does not appear, refresh the file explorer and confirm that the configured folder belongs to the open vault.</p>
     <h2>Organize AI conversation notes</h2>
-    <p>Use a dedicated folder, predictable YAML properties, and links to related project notes. Avoid copying every conversation into the vault. Export the chats that contain decisions, reusable explanations, research, or source material you expect to revisit.</p>
+    <p>Enable YAML front matter to add title, date, source, and custom properties. Use a dedicated folder and link exported chats to the projects where they matter. Selective exports produce a more useful vault than copying every conversation.</p>
     <h2>Fix folder permission problems</h2>
-    <p>Chrome may ask for access again after a browser restart, permission reset, folder move, or rename. Return to extension settings and choose the folder again. Confirm that the destination still exists and that your operating system allows Chrome to write to it.</p>
+    <p>Chrome may ask for access again after a permission reset, folder move, or rename. Return to Export settings and choose the folder again. If direct folder access is unavailable, the extension falls back to the browser downloads folder.</p>
     <div class="note"><strong>Notion is optional.</strong> Obsidian and local Markdown exports do not require a Notion connection.</div>
   </main>
   <footer class="site-footer"><div class="footer-inner"><a href="../">AI Chat Backup</a><div class="footer-links"><a href="../chatgpt-to-markdown/">Markdown guide</a><a href="../chatgpt-to-notion/">Notion guide</a></div></div></footer>

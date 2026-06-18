@@ -1,26 +1,27 @@
 <!doctype html>
 <html lang="en"><head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Bulk Export ChatGPT Conversations | AI Chat Backup</title>
-  <meta name="description" content="Back up multiple ChatGPT conversations with a more reliable batch workflow. Learn how to scan history, choose smaller batches, and retry failures.">
+  <title>Batch Sync ChatGPT Conversations to Notion | AI Chat Backup</title>
+  <meta name="description" content="Use the Chrome side panel to sync up to five latest or selected ChatGPT conversations to Notion per free batch.">
   <meta name="robots" content="index,follow,max-image-preview:large"><meta name="theme-color" content="#f4f5ed"><link rel="canonical" href="https://lnmput.github.io/chatgpt-to-notion/bulk-export-chatgpt/"><link rel="icon" href="../favicon.png" type="image/png"><link rel="apple-touch-icon" href="../favicon.png"><link rel="stylesheet" href="../styles.css">
-  <meta property="og:type" content="article"><meta property="og:site_name" content="AI Chat Backup: ChatGPT to Notion, Obsidian &amp; Markdown"><meta property="og:title" content="Bulk Export ChatGPT Conversations"><meta property="og:description" content="Back up multiple ChatGPT conversations with a reliable batch export workflow."><meta property="og:url" content="https://lnmput.github.io/chatgpt-to-notion/bulk-export-chatgpt/"><meta property="og:image" content="https://lnmput.github.io/chatgpt-to-notion/assets/ai-chat-backup-chatgpt-to-notion.png"><meta name="twitter:card" content="summary_large_image">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="AI Chat Backup: ChatGPT to Notion, Obsidian &amp; Markdown"><meta property="og:title" content="Batch Sync ChatGPT Conversations to Notion"><meta property="og:description" content="Choose up to five latest or selected ChatGPT conversations and monitor their Notion sync from the Chrome side panel."><meta property="og:url" content="https://lnmput.github.io/chatgpt-to-notion/bulk-export-chatgpt/"><meta property="og:image" content="https://lnmput.github.io/chatgpt-to-notion/assets/ai-chat-backup-chatgpt-to-notion.png"><meta name="twitter:card" content="summary_large_image">
 </head><body>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header"><nav class="nav" aria-label="Main navigation"><a class="brand" href="../" aria-label="AI Chat Backup home"><span class="brand-mark" aria-hidden="true">AI</span>AI Chat Backup</a><div class="nav-links"><a href="../#guides">Guides</a><a href="https://github.com/lnmput/chatgpt-to-notion">Help</a></div><a class="button" href="https://chromewebstore.google.com/detail/chatgpt-ai-chat-backup-ma/oedpeddiacomhhfieanenlmdghkolgng">Add to Chrome</a></nav></header>
   <main id="main" class="article">
-    <p class="breadcrumb"><a href="../">AI Chat Backup</a> / Bulk export ChatGPT</p><p class="eyebrow">Conversation history backup</p>
-    <h1>Bulk export ChatGPT conversations with fewer failures.</h1>
-    <p class="lede">The batch workflow scans compatible ChatGPT history pages and processes multiple conversations. A careful selection is more reliable than trying to export an entire large account in one run.</p>
+    <p class="breadcrumb"><a href="../">AI Chat Backup</a> / Batch sync ChatGPT</p><p class="eyebrow">ChatGPT to Notion</p>
+    <h1>Batch sync ChatGPT to Notion.</h1>
+    <p class="lede">The Chrome side panel processes one conversation at a time and sends it to your connected Notion workspace. Free users can choose up to five chats per batch.</p>
     <div class="actions"><a class="button" href="https://chromewebstore.google.com/detail/chatgpt-ai-chat-backup-ma/oedpeddiacomhhfieanenlmdghkolgng">Install AI Chat Backup</a></div>
-    <h2>Prepare the batch</h2>
-    <ol><li>Update AI Chat Backup and reload ChatGPT.</li><li>Open the compatible ChatGPT history or batch interface.</li><li>Start with a small group of conversations.</li><li>Choose the supported export destination.</li><li>Keep the ChatGPT tab open while processing.</li></ol>
-    <h2>Why smaller batches work better</h2>
-    <p>ChatGPT loads conversation data over the network and can change its interface without notice. Large histories increase the chance of temporary requests, rate limits, stale pages, or individual conversations with unusual content. Smaller batches make it easier to identify and retry one failure.</p>
-    <h2>During the export</h2>
-    <ul><li>Do not reload or close the ChatGPT tab.</li><li>Avoid switching accounts during processing.</li><li>Keep the computer awake.</li><li>Wait for the completion or failure summary.</li><li>Retry failed conversations individually before repeating the whole batch.</li></ul>
-    <h2>What a backup should include</h2>
-    <p>Store exported files in a folder with a separate backup policy. If the conversations matter to a project, copy that folder to encrypted cloud storage or another drive. A one-time export is not a complete backup strategy unless it exists in more than one location.</p>
+    <h2>Open Batch Sync</h2>
+    <ol><li>Authorize Notion in AI Chat Backup settings.</li><li>Open ChatGPT in the active tab and make sure you are signed in.</li><li>Open the extension and launch <strong>Batch Sync</strong> in the Chrome side panel.</li><li>Choose between <strong>Latest</strong> and <strong>Selected</strong>.</li><li>Set <strong>Chats this run</strong> between one and five.</li></ol>
+    <h2>Choose latest or selected chats</h2>
+    <p><strong>Latest</strong> scans the newest conversations visible in the ChatGPT sidebar. <strong>Selected</strong> adds selection controls to the sidebar so you can choose specific chats. Pinned conversations are skipped by default; enable <strong>Include pinned conversations</strong> when they belong in the current batch.</p>
+    <h2>Run and monitor the sync</h2>
+    <ul><li>Select <strong>Begin</strong> or <strong>Sync selected chats</strong>.</li><li>Keep Chrome and the ChatGPT session open while the worker processes one chat at a time.</li><li>Use <strong>Pause</strong> and <strong>Resume</strong> when you need to interrupt the run.</li><li>Complete login or verification in ChatGPT if the side panel asks for it.</li><li>Use <strong>Retry Failed</strong> after reviewing the results.</li></ul>
+    <h2>Understand the limits</h2>
+    <p>Free batches support up to five conversations. ChatGPT may slow or stop automated requests, so the extension can pause for login, verification, or rate limits. Already-synced conversations are identified separately instead of being added to Notion again.</p>
+    <div class="note"><strong>Batch Sync is for ChatGPT to Notion.</strong> Single-chat Markdown export and direct Obsidian-folder export use the regular <strong>Export Chat</strong> action.</div>
   </main>
   <footer class="site-footer"><div class="footer-inner"><a href="../">AI Chat Backup</a><div class="footer-links"><a href="../chatgpt-to-markdown/">Markdown export</a><a href="../chatgpt-to-notion/">Notion sync</a></div></div></footer>
 </body></html>

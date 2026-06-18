@@ -10,17 +10,21 @@
   <header class="site-header"><nav class="nav" aria-label="Main navigation"><a class="brand" href="../" aria-label="AI Chat Backup home"><span class="brand-mark" aria-hidden="true">AI</span>AI Chat Backup</a><div class="nav-links"><a href="../#guides">Guides</a><a href="https://github.com/lnmput/chatgpt-to-notion">Help</a></div><a class="button" href="https://chromewebstore.google.com/detail/chatgpt-ai-chat-backup-ma/oedpeddiacomhhfieanenlmdghkolgng">Add to Chrome</a></nav></header>
   <main id="main" class="article">
     <p class="breadcrumb"><a href="../">AI Chat Backup</a> / ChatGPT to Markdown</p><p class="eyebrow">Portable export guide</p>
-    <h1>Export ChatGPT conversations to clean Markdown.</h1>
-    <p class="lede">Markdown keeps AI conversations readable without locking them to one notes app. Save a local copy, commit it with project documentation, or import it into a knowledge-management tool.</p>
+    <h1>Export ChatGPT to Markdown.</h1>
+    <p class="lede">Export the current chat as plain text with its useful structure intact. Keep it in your downloads folder, write it to a selected notes folder, or add metadata for Obsidian and publishing workflows.</p>
     <div class="actions"><a class="button" href="https://chromewebstore.google.com/detail/chatgpt-ai-chat-backup-ma/oedpeddiacomhhfieanenlmdghkolgng">Install the Markdown exporter</a></div>
     <h2>Export one conversation</h2>
-    <ol><li>Open the ChatGPT conversation you want to preserve.</li><li>Wait for all responses to finish loading.</li><li>Open AI Chat Backup.</li><li>Select <strong>Export conversation</strong>.</li><li>Choose the download location and inspect the generated file.</li></ol>
+    <ol><li>Open the ChatGPT conversation you want to keep.</li><li>Wait for the final response to finish loading.</li><li>Open AI Chat Backup.</li><li>Select <strong>Export Chat</strong>.</li><li>Open the downloaded file or the local export folder configured in settings.</li></ol>
     <h2>Why Markdown works well for AI chats</h2>
     <p>Markdown is plain text, easy to search, version, move, and edit. It works with Obsidian, many static-site generators, GitHub, code editors, and document conversion tools. You retain control of the exported file even if the original platform changes.</p>
     <h2>Formatting and limitations</h2>
-    <p>AI Chat Backup attempts to preserve headings, paragraphs, lists, links, code fences, and tables. Complex math, canvases, artifacts, temporary images, or interactive embeds may not have a direct Markdown equivalent. Review important exports before publishing them.</p>
+    <p>AI Chat Backup preserves headings, paragraphs, lists, links, fenced code, and tables when ChatGPT exposes them. Deep Research reports may request one-time access to the ChatGPT report frame. Canvases, interactive embeds, session-bound media, and complex interface elements may need separate handling.</p>
     <h2>Optional YAML front matter</h2>
-    <p>Enable YAML front matter in extension settings when you want structured properties for Obsidian, static sites, or automated content pipelines. Keep field names consistent if other tools process the files.</p>
+    <p>Enable <strong>Add YAML Front Matter</strong> in the Export settings to include generated title, date, and source fields. You can disable those fields or add custom key and default-value pairs for Obsidian, static sites, and automated content pipelines.</p>
+    <h2>Choose where files are written</h2>
+    <p>By default, Export Chat uses the browser downloads folder. In extension settings, choose a <strong>Markdown Export Folder</strong> to write future files directly to a notes directory or Obsidian vault. If folder permission expires, the extension falls back to a normal browser download.</p>
+    <h2>Download generated images separately</h2>
+    <p>For ChatGPT conversations with generated images, use <strong>Download generated images</strong> in the extension. Image files are downloaded separately from the Markdown conversation.</p>
     <h2>Keep local exports private</h2>
     <p>Markdown downloads are created locally in your browser. Treat the files like any other document: choose an appropriate folder, avoid committing private conversations to public repositories, and remove sensitive data before sharing.</p>
   </main>

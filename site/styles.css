@@ -422,7 +422,7 @@ h3 { margin-bottom: 0.75rem; font-size: clamp(1.8rem, 3vw, 2.8rem); }
 }
 .guide-link:nth-child(3n) b { background: var(--color-secondary); }
 .guide-link:nth-child(3n + 2) b { background: var(--color-quaternary); }
-.guide-primary { background: var(--accent); }
+.guide-primary { background: var(--accent-dark); }
 .guide-primary .guide-index,
 .guide-primary > span:nth-child(3) { color: var(--surface); }
 .guide-primary strong { color: var(--surface); font-size: clamp(1.8rem, 4vw, 3rem); }
