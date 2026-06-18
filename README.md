@@ -1,5 +1,3 @@
-# Star Me
-
 <a href="https://starme.dev/">
  <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://assets.starme.dev/badge:v1:lnmput/chatgpt-to-notion:style=free:trail=1:border=1" />
@@ -10,6 +8,7 @@
 
 # ChatGPT to Notion, Markdown & Obsidian | AI Chat Backup
 
+[Visit the ChatGPT to Notion website](https://lnmput.github.io/chatgpt-to-notion/) ·
 [Install AI Chat Backup from the Chrome Web Store](https://chromewebstore.google.com/detail/chatgpt-ai-chat-backup-ma/oedpeddiacomhhfieanenlmdghkolgng)
 
 AI Chat Backup is a Chrome extension for saving AI conversations outside the chat platform. Export ChatGPT conversations to Markdown, store them in an Obsidian vault, or sync selected chats to Notion. The extension also works with Claude, Gemini, Google AI Studio, Perplexity, Poe, and Grok.
