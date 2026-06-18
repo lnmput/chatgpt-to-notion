@@ -51,7 +51,7 @@ Follow the complete [Notion setup and reauthorization guide](NOTION_SETUP.md).
 
 ## Generated images are missing
 
-Image URLs may be temporary, authenticated, or unavailable outside the original AI platform. Export the conversation while the image is still visible and accessible. If the platform blocks direct image access, save the image separately.
+ChatGPT-generated images use source URLs that block access from external services, so they cannot be included in Notion sync. While the images are still available in the conversation, open AI Chat Backup and select **Download generated images** to save them locally.
 
 Never attach a private generated image to a public issue unless you are comfortable making it public.
 

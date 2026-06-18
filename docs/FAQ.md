@@ -16,6 +16,10 @@ No. Markdown downloads and local folder exports work without a Notion account.
 
 Yes. Choose a folder inside your Obsidian vault as the Markdown export folder. Obsidian will detect the exported files as notes.
 
+## Can I save AI-generated images?
+
+Yes. In a ChatGPT conversation, open AI Chat Backup and select **Download generated images** to save the files locally. Generated images are not included in Notion sync because their source URLs block access from external services.
+
 ## Which AI platforms are supported?
 
 ChatGPT, Claude, Gemini, Google AI Studio, Perplexity, Poe, and Grok are supported. Platform changes can temporarily affect extraction.

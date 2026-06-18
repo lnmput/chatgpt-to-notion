@@ -36,6 +36,7 @@ Notion is optional. You can export conversations as local Markdown files without
 - **ChatGPT history backup:** batch-process supported ChatGPT conversations when the batch feature is available.
 - **Multiple AI platforms:** use one export workflow across popular AI chat services.
 - **Structured content:** preserve headings, lists, links, code blocks, and tables where the source platform exposes them.
+- **Generated image downloads:** save ChatGPT-generated images locally with a separate download action. These images are not included in Notion sync because their source URLs block external access.
 - **Local-first option:** use Markdown export without connecting Notion.
 
 ## Supported AI chat platforms
