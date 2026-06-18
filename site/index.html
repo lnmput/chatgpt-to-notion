@@ -12,6 +12,7 @@
   <link rel="icon" href="favicon.png" type="image/png">
   <link rel="apple-touch-icon" href="favicon.png">
   <link rel="stylesheet" href="styles.css">
+  <script src="carousel.js" defer></script>
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="AI Chat Backup: ChatGPT to Notion, Obsidian &amp; Markdown">
   <meta property="og:title" content="AI Chat Backup: Export AI Chats to Markdown, Obsidian &amp; Notion">
@@ -79,10 +80,28 @@
         <p class="hero-note"><span aria-hidden="true">●</span> Local Markdown export needs no account or Notion connection.</p>
       </div>
 
-      <figure class="hero-visual">
-        <div class="visual-label" aria-hidden="true"><span>Conversation</span><span>→</span><span>Your knowledge base</span></div>
-        <img src="https://lnmput.github.io/chatgpt-to-notion/assets/ai-chat-backup-chatgpt-to-notion.png" width="1280" height="800" alt="ChatGPT, Claude, Gemini, Grok, Perplexity, Poe, and Google AI Studio connected to a Notion research workspace" fetchpriority="high">
-        <figcaption>Preserve headings, lists, links, code blocks, and tables when the source platform exposes them.</figcaption>
+      <figure class="hero-visual" data-carousel aria-label="AI Chat Backup feature tour" aria-roledescription="carousel">
+        <div class="visual-label" aria-hidden="true"><span>Product tour</span><span>→</span><span>Keep chats and images</span></div>
+        <div class="carousel-viewport">
+          <div class="carousel-track">
+            <div class="carousel-slide" data-caption="Export chats from seven AI platforms to Markdown, Obsidian, or Notion." aria-hidden="false">
+              <img src="https://lnmput.github.io/chatgpt-to-notion/assets/ai-chat-backup-chatgpt-to-notion.png" width="1280" height="800" alt="Seven supported AI platforms connected to an organized Notion research workspace" fetchpriority="high">
+            </div>
+            <div class="carousel-slide" data-caption="Download all AI-generated images from a ChatGPT conversation to your device." aria-hidden="true">
+              <img src="assets/ai-chat-backup-download-generated-images.png" width="1280" height="800" alt="AI Chat Backup control for downloading all generated images from a ChatGPT conversation" loading="lazy">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-meta">
+          <figcaption data-carousel-caption>Export chats from seven AI platforms to Markdown, Obsidian, or Notion.</figcaption>
+          <div class="carousel-controls">
+            <div class="carousel-dots" role="group" aria-label="Choose feature image">
+              <button class="carousel-dot is-active" type="button" data-carousel-slide="0" aria-label="Show chat export feature" aria-current="true"></button>
+              <button class="carousel-dot" type="button" data-carousel-slide="1" aria-label="Show generated image download feature" aria-current="false"></button>
+            </div>
+            <button class="carousel-toggle" type="button" aria-label="Pause slideshow" aria-pressed="false">Pause</button>
+          </div>
+        </div>
       </figure>
     </section>
 
