@@ -6,7 +6,7 @@
  </picture>
 </a>
 
-# ChatGPT to Notion, Markdown & Obsidian | AI Chat Backup
+# AI Chat Backup: ChatGPT to Notion, Obsidian & Markdown
 
 [Visit the ChatGPT to Notion website](https://lnmput.github.io/chatgpt-to-notion/) ·
 [Install AI Chat Backup from the Chrome Web Store](https://chromewebstore.google.com/detail/chatgpt-ai-chat-backup-ma/oedpeddiacomhhfieanenlmdghkolgng)
