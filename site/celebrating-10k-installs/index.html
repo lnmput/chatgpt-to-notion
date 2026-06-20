@@ -57,8 +57,25 @@
       <li><strong>Performance Enhancements</strong>: Improving the batch and history export reliability so large volume chats sync without hitting memory or rate limits.</li>
     </ul>
 
-    <h2>Join the community</h2>
-    <p>This milestone is just the beginning. If you've been using AI Chat Backup, we'd love to hear your feedback or see your suggestions. Check out our open-source project on <a href="https://github.com/lnmput/chatgpt-to-notion">GitHub</a> to file issues, submit pull requests, or help us shape the next features.</p>
+    <h2>Support the project</h2>
+    <p>AI Chat Backup is built to be a simple, reliable, and privacy-respecting tool for everyone. If you’ve found our extension helpful and would like to support its ongoing maintenance and development, please consider buying us a coffee or tea!</p>
+    <p>Your support keeps us motivated to maintain platform compatibility and deliver new updates.</p>
+    <div class="actions" style="margin-top: 1.5rem; margin-bottom: 2rem;">
+      <a class="button" id="support-link" href="https://putter2.gumroad.com/l/Buymeacoffee">Support AI Chat Backup <span aria-hidden="true">↗</span></a>
+    </div>
+
+    <script>
+      (function() {
+        const userLanguage = navigator.language || 'en';
+        const coffeeUrl = userLanguage.startsWith('zh')
+          ? 'https://putter2.gumroad.com/l/Buymeacoffeeortea'
+          : 'https://putter2.gumroad.com/l/Buymeacoffee';
+        const link = document.getElementById('support-link');
+        if (link) {
+          link.href = coffeeUrl;
+        }
+      })();
+    </script>
     <p>Thank you once again for your support—here is to the next 10,000!</p>
   </main>
   <footer class="site-footer">
