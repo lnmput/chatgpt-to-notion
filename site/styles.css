@@ -500,6 +500,31 @@ h3 { margin-bottom: 0.75rem; font-size: clamp(1.8rem, 3vw, 2.8rem); }
   border: 2px solid var(--ink);
 }
 
+/* Poster overlay sits on top of the iframe */
+.video-poster {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.video-poster img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-poster:hover img {
+  transform: scale(1.03);
+  transition: transform var(--transition-normal);
+}
+
+/* Force-hide any play button when container is playing (defensive) */
+.video-container.playing .video-play-btn {
+  display: none !important;
+}
+
 .video-link {
   display: block;
   text-decoration: none;
@@ -535,7 +560,7 @@ h3 { margin-bottom: 0.75rem; font-size: clamp(1.8rem, 3vw, 2.8rem); }
   transition: transform var(--transition-fast), background-color var(--transition-fast), box-shadow var(--transition-fast);
 }
 
-.video-link:hover .video-play-btn {
+.video-poster:hover .video-play-btn {
   transform: translate(-50%, -50%) scale(1.1);
   background: var(--accent-dark);
   box-shadow: var(--shadow-pop-hover);

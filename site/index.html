@@ -122,53 +122,50 @@
         <div><p class="eyebrow">Video walkthrough</p><h2 id="video-title">See it in action</h2></div>
         <p>Watch this brief video tutorial to see how easily AI Chat Backup exports your conversations, structures data, and connects with Notion, Markdown, or Obsidian.</p>
       </div>
-      <div class="video-container">
-        <a class="video-wrapper video-link" id="video-trigger" href="https://youtu.be/I9C4HYcVUe0" target="_blank" rel="noopener" aria-label="Watch AI Chat Backup Video Walkthrough on YouTube">
-          <img src="https://img.youtube.com/vi/I9C4HYcVUe0/maxresdefault.jpg" alt="Video Walkthrough Thumbnail" loading="lazy">
-          <div class="video-play-btn" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M8 5V19L19 12L8 5Z" fill="currentColor"/>
-            </svg>
+      <div class="video-container" id="video-container">
+        <div class="video-wrapper">
+          <!-- Poster overlay: hides on click to reveal the iframe -->
+          <div class="video-poster" id="video-poster" role="button" tabindex="0" aria-label="Play AI Chat Backup video walkthrough">
+            <img src="https://img.youtube.com/vi/I9C4HYcVUe0/maxresdefault.jpg" alt="Video Walkthrough Thumbnail" loading="lazy">
+            <div class="video-play-btn" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 5V19L19 12L8 5Z" fill="currentColor"/>
+              </svg>
+            </div>
           </div>
-        </a>
+          <!-- iframe always in DOM, src set on play to save bandwidth -->
+          <iframe id="video-iframe"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+            style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;"
+          ></iframe>
+        </div>
       </div>
       <script>
         (function() {
-          const trigger = document.getElementById('video-trigger');
-          if (trigger) {
-            trigger.addEventListener('click', function(e) {
-              // On local file:// protocol, let it fall back to opening in a new tab to avoid YouTube's local embed block
-              if (window.location.protocol === 'file:') {
-                return;
-              }
-              // On http:// or https:// protocols, load the iframe and play inline!
-              e.preventDefault();
-              
-              const iframe = document.createElement('iframe');
-              iframe.src = 'https://www.youtube.com/embed/I9C4HYcVUe0?si=jdvSAAPcrFi4fw1v&autoplay=1';
-              iframe.title = 'YouTube video player';
-              iframe.frameBorder = '0';
-              iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
-              iframe.allowFullscreen = true;
-              iframe.style.position = 'absolute';
-              iframe.style.top = '0';
-              iframe.style.left = '0';
-              iframe.style.width = '100%';
-              iframe.style.height = '100%';
-              iframe.style.border = 'none';
-
-              const wrapper = document.createElement('div');
-              wrapper.className = 'video-wrapper';
-              wrapper.appendChild(iframe);
-
-              const container = trigger.closest('.video-container');
-              if (container) {
-                container.classList.add('playing');
-              }
-
-              trigger.parentNode.replaceChild(wrapper, trigger);
-            });
+          var poster = document.getElementById('video-poster');
+          var iframe = document.getElementById('video-iframe');
+          function playVideo() {
+            if (window.location.protocol === 'file:') {
+              window.open('https://youtu.be/I9C4HYcVUe0', '_blank');
+              return;
+            }
+            // Hide the poster and reveal the iframe
+            poster.style.opacity = '0';
+            poster.style.pointerEvents = 'none';
+            poster.setAttribute('aria-hidden', 'true');
+            setTimeout(function() { poster.style.display = 'none'; }, 300);
+            // Set iframe src to start playback
+            iframe.src = 'https://www.youtube.com/embed/I9C4HYcVUe0?si=jdvSAAPcrFi4fw1v&autoplay=1';
+            document.getElementById('video-container').classList.add('playing');
           }
+          poster.addEventListener('click', playVideo);
+          poster.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); playVideo(); }
+          });
         })();
       </script>
     </section>
