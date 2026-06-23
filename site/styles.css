@@ -485,7 +485,7 @@ h3 { margin-bottom: 0.75rem; font-size: clamp(1.8rem, 3vw, 2.8rem); }
   transition: transform var(--transition-fast), box-shadow var(--transition-fast);
 }
 
-.video-container:hover {
+.video-container:not(.playing):hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-pop-hover);
 }
