@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lnmput.github.io/chatgpt-to-notion/sitemap.xml
+Sitemap: https://lnmput.github.io/chatgpt-to-notion/sitemap-main.xml
