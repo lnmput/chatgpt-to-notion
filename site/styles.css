@@ -468,6 +468,83 @@ h3 { margin-bottom: 0.75rem; font-size: clamp(1.8rem, 3vw, 2.8rem); }
 .destination:nth-child(1) { background: var(--accent-soft); border-color: var(--accent); }
 .destination:nth-child(2) { background: color-mix(in oklch, var(--color-tertiary) 25%, var(--surface)); }
 .destination:nth-child(3) { background: color-mix(in oklch, var(--color-quaternary) 25%, var(--surface)); }
+.video-section {
+  max-width: var(--max);
+  margin: 0 auto;
+}
+
+.video-container {
+  max-width: 52rem;
+  margin: 0 auto;
+  border: 2px solid var(--ink);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--shadow-pop);
+  padding: 1rem;
+  overflow: hidden;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.video-container:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-pop-hover);
+}
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: calc(var(--radius-md) - 0.6rem);
+  overflow: hidden;
+  border: 2px solid var(--ink);
+}
+
+.video-link {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.video-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-normal);
+}
+
+.video-link:hover img {
+  transform: scale(1.03);
+}
+
+.video-play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 5rem;
+  height: 5rem;
+  background: var(--accent);
+  color: var(--surface);
+  border: 2px solid var(--ink);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-pop);
+  transition: transform var(--transition-fast), background-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.video-link:hover .video-play-btn {
+  transform: translate(-50%, -50%) scale(1.1);
+  background: var(--accent-dark);
+  box-shadow: var(--shadow-pop-hover);
+}
+
+.video-play-btn svg {
+  width: 2.2rem;
+  height: 2.2rem;
+  margin-left: 0.3rem; /* Align play triangle visually */
+}
 
 .process { position: relative; overflow: hidden; color: var(--ink); background: var(--color-quaternary); border-block: 2px solid var(--ink); }
 .process::after { position: absolute; right: -3rem; bottom: -4rem; width: 12rem; aspect-ratio: 1; border: 2px solid var(--ink); background: repeating-linear-gradient(45deg, var(--surface) 0 8px, var(--color-secondary) 8px 16px); transform: rotate(18deg); content: ""; }

@@ -117,6 +117,41 @@
       </div>
     </section>
 
+    <section class="section video-section" aria-labelledby="video-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">Video walkthrough</p><h2 id="video-title">See it in action</h2></div>
+        <p>Watch this brief video tutorial to see how easily AI Chat Backup exports your conversations, structures data, and connects with Notion, Markdown, or Obsidian.</p>
+      </div>
+      <div class="video-container">
+        <a class="video-wrapper video-link" id="video-trigger" href="https://youtu.be/I9C4HYcVUe0" target="_blank" rel="noopener" aria-label="Watch AI Chat Backup Video Walkthrough on YouTube">
+          <img src="https://img.youtube.com/vi/I9C4HYcVUe0/maxresdefault.jpg" alt="Video Walkthrough Thumbnail" loading="lazy">
+          <div class="video-play-btn" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 5V19L19 12L8 5Z" fill="currentColor"/>
+            </svg>
+          </div>
+        </a>
+      </div>
+      <script>
+        (function() {
+          const trigger = document.getElementById('video-trigger');
+          if (trigger) {
+            trigger.addEventListener('click', function(e) {
+              // On local file:// protocol, let it fall back to opening in a new tab to avoid YouTube's local embed block
+              if (window.location.protocol === 'file:') {
+                return;
+              }
+              // On http:// or https:// protocols, load the iframe and play inline!
+              e.preventDefault();
+              this.innerHTML = '<iframe src="https://www.youtube.com/embed/I9C4HYcVUe0?autoplay=1" title="AI Chat Backup Video Walkthrough" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"></iframe>';
+              this.style.cursor = 'default';
+              this.classList.remove('video-link');
+            });
+          }
+        })();
+      </script>
+    </section>
+
     <section class="section destinations-section" id="destinations" aria-labelledby="destinations-title">
       <div class="section-heading">
         <div><p class="eyebrow">Choose the destination</p><h2 id="destinations-title">One chat.<br>Three useful homes.</h2></div>
