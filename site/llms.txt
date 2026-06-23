@@ -8,20 +8,20 @@ Supported AI platforms documented by the project are ChatGPT, Claude, Gemini, Go
 
 ## Product
 
-- [AI Chat Backup: ChatGPT to Notion, Obsidian & Markdown](https://lnmput.github.io/chatgpt-to-notion/): Product overview, supported platforms, export destinations, and common questions
+- [AI Chat Backup: ChatGPT to Notion, Obsidian & Markdown](https://chatgpt-to-notion.linkcanvas.space/): Product overview, supported platforms, export destinations, and common questions
 - [Install AI Chat Backup](https://chromewebstore.google.com/detail/chatgpt-ai-chat-backup-ma/oedpeddiacomhhfieanenlmdghkolgng): Official Chrome Web Store listing
 
 ## ChatGPT Export Guides
 
-- [Export ChatGPT to Notion](https://lnmput.github.io/chatgpt-to-notion/chatgpt-to-notion/): Authorize the AI Chats template and sync the current conversation
-- [Export ChatGPT to Markdown](https://lnmput.github.io/chatgpt-to-notion/chatgpt-to-markdown/): Create portable files with useful structure and optional YAML metadata
-- [Save ChatGPT to Obsidian](https://lnmput.github.io/chatgpt-to-notion/chatgpt-to-obsidian/): Write Markdown exports into a user-selected Obsidian vault folder
-- [Batch Sync ChatGPT Conversations](https://lnmput.github.io/chatgpt-to-notion/bulk-export-chatgpt/): Sync up to five latest or selected ChatGPT conversations to Notion per free batch
+- [Export ChatGPT to Notion](https://chatgpt-to-notion.linkcanvas.space/chatgpt-to-notion/): Authorize the AI Chats template and sync the current conversation
+- [Export ChatGPT to Markdown](https://chatgpt-to-notion.linkcanvas.space/chatgpt-to-markdown/): Create portable files with useful structure and optional YAML metadata
+- [Save ChatGPT to Obsidian](https://chatgpt-to-notion.linkcanvas.space/chatgpt-to-obsidian/): Write Markdown exports into a user-selected Obsidian vault folder
+- [Batch Sync ChatGPT Conversations](https://chatgpt-to-notion.linkcanvas.space/bulk-export-chatgpt/): Sync up to five latest or selected ChatGPT conversations to Notion per free batch
 
 ## Other AI Platform Guides
 
-- [Export Claude to Notion](https://lnmput.github.io/chatgpt-to-notion/claude-to-notion/): Save long-form Claude conversations to Notion or Markdown
-- [Export Gemini to Notion](https://lnmput.github.io/chatgpt-to-notion/gemini-to-notion/): Save Gemini conversations to Notion, Markdown, or Obsidian
+- [Export Claude to Notion](https://chatgpt-to-notion.linkcanvas.space/claude-to-notion/): Save long-form Claude conversations to Notion or Markdown
+- [Export Gemini to Notion](https://chatgpt-to-notion.linkcanvas.space/gemini-to-notion/): Save Gemini conversations to Notion, Markdown, or Obsidian
 
 ## Support and Policies
 
@@ -31,4 +31,4 @@ Supported AI platforms documented by the project are ChatGPT, Claude, Gemini, Go
 
 ## Optional
 
-- [Sitemap](https://lnmput.github.io/chatgpt-to-notion/sitemap.xml): Complete list of indexable pages on this documentation site
+- [Sitemap](https://chatgpt-to-notion.linkcanvas.space/sitemap.xml): Complete list of indexable pages on this documentation site
