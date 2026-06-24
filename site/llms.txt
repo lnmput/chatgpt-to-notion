@@ -34,6 +34,12 @@ Supported AI platforms documented by the project are ChatGPT, Claude, Gemini, Go
 - [Issue Tracker](https://github.com/lnmput/chatgpt-to-notion/issues): Public bug reports and feature requests; private conversations and credentials must not be posted
 - [Privacy Policy](https://chrome-extensions-page.vercel.app/ai-chat-backup/privacy): Data handling and privacy information
 
+## Use Cases & Stories
+
+- [Why ChatGPT's Official Export Fails](https://chatgpt-to-notion.linkcanvas.space/why-official-chatgpt-export-fails/): Compare ChatGPT's native JSON export limitations with instant backups
+- [Perplexity & Obsidian Research Workflow](https://chatgpt-to-notion.linkcanvas.space/perplexity-obsidian-research-workflow/): Academic workflow using Perplexity for search and Obsidian for a local double-link second brain
+- [Claude & Notion Developer Wiki](https://chatgpt-to-notion.linkcanvas.space/claude-notion-developer-wiki/): Software team case study on syncing Claude programming chats to Notion databases
+
 ## Optional
 
 - [Sitemap](https://chatgpt-to-notion.linkcanvas.space/sitemap-main.xml): Complete list of indexable pages on this documentation site
