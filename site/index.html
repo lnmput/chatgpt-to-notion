@@ -221,6 +221,69 @@
       </div>
     </section>
 
+    <section class="section matrix-section" id="matrix" aria-labelledby="matrix-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">Supported Integration Matrix</p><h2 id="matrix-title">Platforms &amp; Destinations</h2></div>
+        <p>Click any active link in the matrix below to open the dedicated integration guide for your workflow.</p>
+      </div>
+      <div class="matrix-container" style="overflow-x: auto; margin-top: 2rem;">
+        <table style="width: 100%; border-collapse: collapse; border: 3px solid var(--ink); background: var(--surface); box-shadow: var(--shadow-pop);">
+          <thead>
+            <tr style="border-bottom: 3px solid var(--ink); background: var(--apricot);">
+              <th style="padding: 1rem; text-align: left; border-right: 3px solid var(--ink);">AI Platform</th>
+              <th style="padding: 1rem; text-align: center; border-right: 3px solid var(--ink);">Sync to Notion</th>
+              <th style="padding: 1rem; text-align: center; border-right: 3px solid var(--ink);">Export to Obsidian</th>
+              <th style="padding: 1rem; text-align: center;">Export to Markdown</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom: 2px solid var(--ink);">
+              <td style="padding: 1rem; font-weight: bold; border-right: 3px solid var(--ink); background: var(--color-muted);">ChatGPT</td>
+              <td style="padding: 1rem; text-align: center; border-right: 3px solid var(--ink);"><a href="chatgpt-to-notion/" style="text-decoration: underline; font-weight: 600;">Notion Guide</a></td>
+              <td style="padding: 1rem; text-align: center; border-right: 3px solid var(--ink);"><a href="chatgpt-to-obsidian/" style="text-decoration: underline; font-weight: 600;">Obsidian Guide</a></td>
+              <td style="padding: 1rem; text-align: center;"><a href="chatgpt-to-markdown/" style="text-decoration: underline; font-weight: 600;">Markdown Guide</a></td>
+            </tr>
+            <tr style="border-bottom: 2px solid var(--ink);">
+              <td style="padding: 1rem; font-weight: bold; border-right: 3px solid var(--ink); background: var(--color-muted);">Claude</td>
+              <td style="padding: 1rem; text-align: center; border-right: 3px solid var(--ink);"><a href="claude-to-notion/" style="text-decoration: underline; font-weight: 600;">Notion Guide</a></td>
+              <td style="padding: 1rem; text-align: center; border-right: 3px solid var(--ink);"><a href="claude-to-obsidian/" style="text-decoration: underline; font-weight: 600;">Obsidian Guide</a></td>
+              <td style="padding: 1rem; text-align: center;"><span style="color: var(--muted);">Direct (Export Chat)</span></td>
+            </tr>
+            <tr style="border-bottom: 2px solid var(--ink);">
+              <td style="padding: 1rem; font-weight: bold; border-right: 3px solid var(--ink); background: var(--color-muted);">Gemini</td>
+              <td style="padding: 1rem; text-align: center; border-right: 3px solid var(--ink);"><a href="gemini-to-notion/" style="text-decoration: underline; font-weight: 600;">Notion Guide</a></td>
+              <td style="padding: 1rem; text-align: center; border-right: 3px solid var(--ink);"><a href="gemini-to-obsidian/" style="text-decoration: underline; font-weight: 600;">Obsidian Guide</a></td>
+              <td style="padding: 1rem; text-align: center;"><span style="color: var(--muted);">Direct (Export Chat)</span></td>
+            </tr>
+            <tr style="border-bottom: 2px solid var(--ink);">
+              <td style="padding: 1rem; font-weight: bold; border-right: 3px solid var(--ink); background: var(--color-muted);">Perplexity</td>
+              <td style="padding: 1rem; text-align: center; border-right: 3px solid var(--ink);"><a href="perplexity-to-notion/" style="text-decoration: underline; font-weight: 600;">Notion Guide</a></td>
+              <td style="padding: 1rem; text-align: center; border-right: 3px solid var(--ink);"><a href="perplexity-to-obsidian/" style="text-decoration: underline; font-weight: 600;">Obsidian Guide</a></td>
+              <td style="padding: 1rem; text-align: center;"><span style="color: var(--muted);">Direct (Export Chat)</span></td>
+            </tr>
+            <tr style="border-bottom: 2px solid var(--ink);">
+              <td style="padding: 1rem; font-weight: bold; border-right: 3px solid var(--ink); background: var(--color-muted);">Google AI Studio</td>
+              <td style="padding: 1rem; text-align: center; border-right: 3px solid var(--ink);"><span style="color: var(--muted);">Supported</span></td>
+              <td style="padding: 1rem; text-align: center; border-right: 3px solid var(--ink);"><span style="color: var(--muted);">Supported</span></td>
+              <td style="padding: 1rem; text-align: center;"><span style="color: var(--muted);">Supported</span></td>
+            </tr>
+            <tr style="border-bottom: 2px solid var(--ink);">
+              <td style="padding: 1rem; font-weight: bold; border-right: 3px solid var(--ink); background: var(--color-muted);">Grok</td>
+              <td style="padding: 1rem; text-align: center; border-right: 3px solid var(--ink);"><span style="color: var(--muted);">Supported</span></td>
+              <td style="padding: 1rem; text-align: center; border-right: 3px solid var(--ink);"><span style="color: var(--muted);">Supported</span></td>
+              <td style="padding: 1rem; text-align: center;"><span style="color: var(--muted);">Supported</span></td>
+            </tr>
+            <tr>
+              <td style="padding: 1rem; font-weight: bold; border-right: 3px solid var(--ink); background: var(--color-muted);">Poe</td>
+              <td style="padding: 1rem; text-align: center; border-right: 3px solid var(--ink);"><span style="color: var(--muted);">Supported</span></td>
+              <td style="padding: 1rem; text-align: center; border-right: 3px solid var(--ink);"><span style="color: var(--muted);">Supported</span></td>
+              <td style="padding: 1rem; text-align: center;"><span style="color: var(--muted);">Supported</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
     <section class="section guides-section" id="guides" aria-labelledby="guides-title">
       <div class="section-heading">
         <div><p class="eyebrow">Practical guides</p><h2 id="guides-title">Start with your workflow.</h2></div>
@@ -233,7 +296,12 @@
         <a class="guide-link" href="bulk-export-chatgpt/"><span class="guide-index">04</span><strong>Batch sync ChatGPT</strong><span>Send up to five latest or selected chats to Notion per batch.</span><b aria-hidden="true">↗</b></a>
         <a class="guide-link" href="claude-to-notion/"><span class="guide-index">05</span><strong>Claude to Notion</strong><span>Keep long conversations outside Claude’s interface.</span><b aria-hidden="true">↗</b></a>
         <a class="guide-link" href="gemini-to-notion/"><span class="guide-index">06</span><strong>Gemini to Notion</strong><span>Save Gemini responses with their links and structure.</span><b aria-hidden="true">↗</b></a>
-        <a class="guide-link" href="celebrating-10k-installs/"><span class="guide-index">07</span><strong>10,000 Installs</strong><span>Celebrating our weekly active users milestone.</span><b aria-hidden="true">↗</b></a>
+        <a class="guide-link" href="perplexity-to-notion/"><span class="guide-index">07</span><strong>Perplexity to Notion</strong><span>Sync Perplexity research threads and source citations to Notion.</span><b aria-hidden="true">↗</b></a>
+        <a class="guide-link" href="perplexity-to-obsidian/"><span class="guide-index">08</span><strong>Perplexity to Obsidian</strong><span>Save Perplexity search threads directly to local Obsidian folders.</span><b aria-hidden="true">↗</b></a>
+        <a class="guide-link" href="claude-to-obsidian/"><span class="guide-index">09</span><strong>Claude to Obsidian</strong><span>Save Claude conversations and code artifacts to Obsidian.</span><b aria-hidden="true">↗</b></a>
+        <a class="guide-link" href="gemini-to-obsidian/"><span class="guide-index">10</span><strong>Gemini to Obsidian</strong><span>Export Google Gemini responses directly to Obsidian.</span><b aria-hidden="true">↗</b></a>
+        <a class="guide-link" href="notion-reauthorization-guide/"><span class="guide-index">11</span><strong>Notion Reauthorization</strong><span>Fix Notion sync errors, reconnect databases, and solve bugs.</span><b aria-hidden="true">↗</b></a>
+        <a class="guide-link" href="celebrating-10k-installs/"><span class="guide-index">12</span><strong>10,000 Installs</strong><span>Celebrating our weekly active users milestone.</span><b aria-hidden="true">↗</b></a>
       </div>
     </section>
 

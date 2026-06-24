@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Notion Integration Reauthorization Guide | AI Chat Backup</title>
+  <meta name="description" content="Fix Notion connection and synchronization issues. Learn how to reauthorize Notion, select databases, and resolve common sync errors.">
+  <meta name="robots" content="index,follow,max-image-preview:large"><meta name="theme-color" content="#f4f5ed"><link rel="canonical" href="https://chatgpt-to-notion.linkcanvas.space/notion-reauthorization-guide/"><link rel="icon" href="../favicon.png" type="image/png"><link rel="apple-touch-icon" href="../favicon.png"><link rel="stylesheet" href="../styles.css">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="AI Chat Backup: ChatGPT to Notion, Obsidian &amp; Markdown"><meta property="og:title" content="Notion Integration Reauthorization Guide"><meta property="og:description" content="Troubleshoot and fix Notion synchronization issues in AI Chat Backup with this complete reauthorization guide."><meta property="og:url" content="https://chatgpt-to-notion.linkcanvas.space/notion-reauthorization-guide/"><meta property="og:image" content="https://chatgpt-to-notion.linkcanvas.space/assets/ai-chat-backup-chatgpt-to-notion.png"><meta name="twitter:card" content="summary_large_image">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DQGNH0JSQ6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DQGNH0JSQ6');
+</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><nav class="nav" aria-label="Main navigation"><a class="brand" href="../" aria-label="AI Chat Backup home"><img class="brand-mark" src="../favicon.png" width="32" height="32" alt="">AI Chat Backup</a><div class="nav-links"><a href="../#guides">Guides</a><a href="https://github.com/lnmput/chatgpt-to-notion">Help</a></div><a class="button" href="https://chromewebstore.google.com/detail/chatgpt-ai-chat-backup-ma/oedpeddiacomhhfieanenlmdghkolgng">Add to Chrome</a></nav></header>
+  <main id="main" class="article">
+    <p class="breadcrumb"><a href="../">AI Chat Backup</a> / Notion Reauthorization</p>
+    <p class="eyebrow">Support &amp; Troubleshooting Guide</p>
+    <h1>Notion Reauthorization Guide.</h1>
+    <p class="lede">Resolve connection issues and restore chat synchronization. If AI Chat Backup displays database errors or asks you to reconnect, follow this guide to authorize the extension correctly.</p>
+    
+    <h2>When is Reauthorization needed?</h2>
+    <p>You may need to reconnect or reauthorize Notion if you experience any of the following:</p>
+    <ul>
+      <li>The sync button displays: <em>"Notion authorization or database configuration issue, please reconnect."</em></li>
+      <li>The extension popup shows a <strong>"Reconnect Notion"</strong> button.</li>
+      <li>Chat sync processes fail or fail to record in your databases.</li>
+      <li>You recently changed your Notion password, workspace, or workspace access permissions.</li>
+    </ul>
+
+    <h2>Step-by-Step Reauthorization</h2>
+    
+    <h3>Step 1: Check your Notion workspace</h3>
+    <p>Before initiating the connection, open your Notion workspace in your browser or app and look at the left-hand sidebar:</p>
+    <ul>
+      <li>Confirm if a page named <strong>"AI Chats"</strong> already exists in your workspace.</li>
+    </ul>
+
+    <h3>Step 2: Start the reauthorization</h3>
+    <ol>
+      <li>Click the AI Chat Backup icon in the browser toolbar to open the extension popup.</li>
+      <li>Click the <strong>"Reconnect Notion"</strong> or <strong>"Reauthorize"</strong> button. This will open the official Notion authorization screen.</li>
+    </ol>
+
+    <h3>Step 3: Select your authorization scenario</h3>
+    <p>Based on what you found in Step 1, select the matching method below:</p>
+    
+    <div class="note">
+      <strong>Scenario A: You already have an "AI Chats" page in Notion</strong><br>
+      If the page exists in your sidebar:<br>
+      1. On the Notion connection page, choose <strong>"Select pages to share with AIBackup"</strong>.<br>
+      2. In the page search list, find and check the existing <strong>"AI Chats"</strong> page.<br>
+      3. Click <strong>"Allow access"</strong> to grant permissions and complete the setup.
+    </div>
+
+    <div class="note" style="border-color: #2563eb;">
+      <strong>Scenario B: You do NOT have an "AI Chats" page in Notion</strong><br>
+      If you cannot find the page, or are setting up for the first time:<br>
+      1. On the Notion connection page, choose <strong>"Use a template provided by the developer"</strong>.<br>
+      2. The integration will automatically create a fresh <strong>"AI Chats"</strong> page with pre-configured databases in your workspace.<br>
+      3. Click <strong>"Allow access"</strong>.
+    </div>
+
+    <h3>Step 4: Wait for initialization</h3>
+    <p>After clicking Allow access, you will be redirected back to the extension Options page. A progress bar will show the initialization status. <strong>Please wait 1 to 2 minutes</strong> for the extension to:</p>
+    <ul>
+      <li>Verify the workspace connection.</li>
+      <li>Initialize the necessary "Chats" and "Platforms" databases.</li>
+      <li>Write system template structures.</li>
+    </ul>
+
+    <h3>Step 5: Verify connection success</h3>
+    <p>When completed, the Options page will display a green <strong>"Authorization successful"</strong> indicator along with your Notion user information and active database links.</p>
+
+    <h2>Common Troubleshooting</h2>
+    <ul>
+      <li><strong>Multiple "AI Chats" pages:</strong> Having multiple pages named "AI Chats" can cause sync conflicts. Please delete any duplicate pages (move them to Trash) and keep only one, then repeat the reauthorization.</li>
+      <li><strong>Page moved to Trash:</strong> If you accidentally delete or archive the template databases in Notion, synchronization will fail. Reauthorize using Scenario B to create a clean workspace template.</li>
+      <li><strong>Timeout errors:</strong> If the Options page keeps loading, refresh the page and re-run the authorization process. Ensure your internet connection is stable.</li>
+    </ul>
+  </main>
+  <footer class="site-footer"><div class="footer-inner"><a href="../">AI Chat Backup</a><div class="footer-links"><a href="../chatgpt-to-notion/">ChatGPT Guide</a><a href="../claude-to-notion/">Claude Guide</a></div></div></footer>
+</body>
+</html>

@@ -21,14 +21,19 @@ Supported AI platforms documented by the project are ChatGPT, Claude, Gemini, Go
 ## Other AI Platform Guides
 
 - [Export Claude to Notion](https://chatgpt-to-notion.linkcanvas.space/claude-to-notion/): Save long-form Claude conversations to Notion or Markdown
+- [Save Claude to Obsidian](https://chatgpt-to-notion.linkcanvas.space/claude-to-obsidian/): Export Claude conversations and code artifacts to an Obsidian vault
 - [Export Gemini to Notion](https://chatgpt-to-notion.linkcanvas.space/gemini-to-notion/): Save Gemini conversations to Notion, Markdown, or Obsidian
+- [Save Gemini to Obsidian](https://chatgpt-to-notion.linkcanvas.space/gemini-to-obsidian/): Save Gemini responses and logical structures to Obsidian
+- [Export Perplexity to Notion](https://chatgpt-to-notion.linkcanvas.space/perplexity-to-notion/): Sync Perplexity search threads, citations, and answers to Notion
+- [Save Perplexity to Obsidian](https://chatgpt-to-notion.linkcanvas.space/perplexity-to-obsidian/): Export Perplexity threads directly to a local Obsidian vault
 
 ## Support and Policies
 
+- [Notion Integration Reauthorization Guide](https://chatgpt-to-notion.linkcanvas.space/notion-reauthorization-guide/): Troubleshoot and fix Notion sync connection errors and database configuration issues
 - [Documentation Repository](https://github.com/lnmput/chatgpt-to-notion): Installation, user guides, Notion setup, troubleshooting, and frequently asked questions
 - [Issue Tracker](https://github.com/lnmput/chatgpt-to-notion/issues): Public bug reports and feature requests; private conversations and credentials must not be posted
 - [Privacy Policy](https://chrome-extensions-page.vercel.app/ai-chat-backup/privacy): Data handling and privacy information
 
 ## Optional
 
-- [Sitemap](https://chatgpt-to-notion.linkcanvas.space/sitemap.xml): Complete list of indexable pages on this documentation site
+- [Sitemap](https://chatgpt-to-notion.linkcanvas.space/sitemap-main.xml): Complete list of indexable pages on this documentation site
