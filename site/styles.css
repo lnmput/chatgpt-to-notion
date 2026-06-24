@@ -771,13 +771,10 @@ details p { max-width: 42rem; margin: -0.25rem 0 1.5rem; color: var(--muted); }
   .hero-visual { margin-right: 1rem; }
   .process-inner { grid-template-columns: minmax(20rem, 0.85fr) minmax(28rem, 1.15fr); align-items: start; }
   .guides { grid-template-columns: repeat(6, minmax(0, 1fr)); }
-  .guide-primary { grid-column: 1 / -1; min-height: 16rem; }
-  .guide-link:nth-child(2),
-  .guide-link:nth-child(3),
-  .guide-link:nth-child(4),
-  .guide-link:nth-child(5),
-  .guide-link:nth-child(6),
-  .guide-link:nth-child(7) { grid-column: span 2; }
+  .guide-link { grid-column: span 2; }
+  .guide-wide { grid-column: span 4; }
+  .guide-primary,
+  .guide-full { grid-column: 1 / -1; min-height: 16rem; }
 }
 
 @media (pointer: coarse) {
