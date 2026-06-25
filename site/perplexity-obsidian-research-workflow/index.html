@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Build a Research Second Brain: Perplexity to Obsidian | AI Chat Backup</title>
-  <meta name="description" content="Learn how researchers use Perplexity AI and Obsidian to build a local, private knowledge base. Export threads with citations and metadata intact.">
+  <meta name="description" content="Example workflow for using Perplexity AI and Obsidian to build a local, private knowledge base with exported Markdown notes.">
   <meta name="robots" content="index,follow,max-image-preview:large"><meta name="theme-color" content="#f4f5ed"><link rel="canonical" href="https://chatgpt-to-notion.linkcanvas.space/perplexity-obsidian-research-workflow/"><link rel="icon" href="../favicon.png" type="image/png"><link rel="apple-touch-icon" href="../favicon.png"><link rel="stylesheet" href="../styles.css">
-  <meta property="og:type" content="article"><meta property="og:site_name" content="AI Chat Backup: ChatGPT to Notion, Obsidian &amp; Markdown"><meta property="og:title" content="Build a Research Second Brain: Perplexity to Obsidian"><meta property="og:description" content="A step-by-step case study on saving Perplexity search threads directly to local Obsidian vaults for scientific and professional research."><meta property="og:url" content="https://chatgpt-to-notion.linkcanvas.space/perplexity-obsidian-research-workflow/"><meta property="og:image" content="https://chatgpt-to-notion.linkcanvas.space/assets/ai-chat-backup-chatgpt-to-notion.png"><meta name="twitter:card" content="summary_large_image">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="AI Chat Backup: ChatGPT to Notion, Obsidian &amp; Markdown"><meta property="og:title" content="Build a Research Second Brain: Perplexity to Obsidian"><meta property="og:description" content="A practical example workflow for saving Perplexity search threads directly to local Obsidian vaults."><meta property="og:url" content="https://chatgpt-to-notion.linkcanvas.space/perplexity-obsidian-research-workflow/"><meta property="og:image" content="https://chatgpt-to-notion.linkcanvas.space/assets/ai-chat-backup-chatgpt-to-notion.png"><meta name="twitter:card" content="summary_large_image">
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-DQGNH0JSQ6"></script>
 <script>
@@ -21,26 +21,25 @@
   <header class="site-header"><nav class="nav" aria-label="Main navigation"><a class="brand" href="../" aria-label="AI Chat Backup home"><img class="brand-mark" src="../favicon.png" width="32" height="32" alt="">AI Chat Backup</a><div class="nav-links"><a href="../#guides">Guides</a><a href="https://github.com/lnmput/chatgpt-to-notion">Help</a></div><a class="button" href="https://chromewebstore.google.com/detail/chatgpt-ai-chat-backup-ma/oedpeddiacomhhfieanenlmdghkolgng">Add to Chrome</a></nav></header>
   <main id="main" class="article">
     <p class="breadcrumb"><a href="../">AI Chat Backup</a> / Perplexity &amp; Obsidian Case Study</p>
-    <p class="eyebrow">Researcher Case Study</p>
-    <h1>Case Study: Building a Research Second Brain with Perplexity and Obsidian</h1>
-    <p class="lede">How a professional academic researcher uses Perplexity's deep search engine and Obsidian's bi-directional linking to compile a local, private, and fully searchable second brain.</p>
+    <p class="eyebrow">Research workflow example</p>
+    <h1>Example: Building a Research Second Brain with Perplexity and Obsidian</h1>
+    <p class="lede">A practical workflow for using Perplexity search threads and Obsidian's local notes to build a private research archive.</p>
     <div class="actions"><a class="button" href="https://chromewebstore.google.com/detail/chatgpt-ai-chat-backup-ma/oedpeddiacomhhfieanenlmdghkolgng">Install AI Chat Backup</a></div>
     
     <h2>The challenge: Capturing dynamic research</h2>
-    <p>Dr. Elena Rostova is an independent researcher specializing in biotechnology. She relies heavily on **Perplexity AI** to perform literature reviews, find paper citations, and synthesize complex scientific queries. However, organizing this information was a bottleneck:</p>
-    <blockquote>"Perplexity is fantastic for finding facts and links, but keeping 50 open browser tabs or copy-pasting answers into markdown notes was exhausting. I kept losing the source citation links and the tables would format incorrectly in Obsidian."</blockquote>
+    <p>A researcher may use Perplexity to explore literature, compare sources, and draft structured summaries. The challenge is keeping useful threads in a durable local archive instead of leaving them inside browser tabs or platform history.</p>
 
     <h2>The workflow: From query to local knowledge base</h2>
-    <p>By integrating **AI Chat Backup** into her daily stack, Elena established a frictionless three-step workflow to feed her Obsidian vault:</p>
+    <p>With AI Chat Backup configured for a local Markdown export folder, the workflow can stay simple:</p>
 
     <h3>1. Curate and refine on Perplexity</h3>
-    <p>Elena queries Perplexity to map out a research topic. Once the thread is fully loaded with search references and organized tables, she has the completed digest ready.</p>
+    <p>Use Perplexity to map out a research topic. Once the thread is fully loaded and the visible answer content is ready, prepare it for export.</p>
 
     <h3>2. One-click local vault sync</h3>
-    <p>With her Obsidian vault folder configured in AI Chat Backup's settings under **Markdown Export Folder**, Elena opens the side panel and clicks **Export Chat**. The extension immediately writes a `.md` file directly into her vault directory.</p>
+    <p>With an Obsidian vault folder configured in AI Chat Backup's settings under **Markdown Export Folder**, open the extension popup and click **Export Chat**. When folder permission is available, the extension writes a `.md` file directly into the selected vault directory.</p>
 
     <h3>3. Metadata tagging and linking</h3>
-    <p>Because the extension prepends YAML front matter to each export, Obsidian automatically indexes the note's metadata. Elena uses the Obsidian *Dataview* plugin to automatically query and catalog her research papers based on tags like `platform: perplexity` and custom date ranges.</p>
+    <p>When YAML front matter is enabled, exported notes can include fields such as title, date, and source. Obsidian plugins such as Dataview can then query those fields if your vault is configured for that workflow.</p>
 
     <div class="note">
       <strong>Pro Tip: Dataview Integration.</strong> Enable YAML front matter in the extension settings. Inside Obsidian, you can query your research notes using a simple query:
@@ -51,13 +50,13 @@
 
     <h2>Why this workflow beats copy-pasting</h2>
     <ul>
-      <li><strong>Citations are preserved:</strong> Perplexity's citation references (e.g. `[1]`, `[2]`) are converted into clickable hyperlinks at the bottom of the Markdown file, keeping sources verifiable.</li>
-      <li><strong>Clean table formatting:</strong> Multi-column comparison tables are parsed into valid Markdown tables, rendering perfectly inside Obsidian's Preview Mode.</li>
-      <li><strong>Local-first privacy:</strong> Since both the extension's Markdown compiler and Obsidian run locally, Elena’s unpublished research remains confidential and secure on her local hard drive.</li>
+      <li><strong>Less manual copying:</strong> Export the visible thread structure without rebuilding every heading, list, or code block by hand.</li>
+      <li><strong>Markdown-friendly structure:</strong> Tables and lists are converted when the page exposes them in a form the extension can parse.</li>
+      <li><strong>Local-first storage:</strong> Markdown files can stay in an Obsidian vault or another folder you control.</li>
     </ul>
 
     <h2>Conclusion</h2>
-    <p>By bridging Perplexity's search intelligence with Obsidian's local organization using AI Chat Backup, Dr. Rostova built a sustainable, scalable research archive. It saves hours of manual formatting weekly and guarantees her digital second brain stays organized.</p>
+    <p>By bridging Perplexity's search workflow with Obsidian's local organization, AI Chat Backup can reduce copy-paste cleanup and make useful research threads easier to revisit.</p>
   </main>
   <footer class="site-footer"><div class="footer-inner"><a href="../">AI Chat Backup</a><div class="footer-links"><a href="../perplexity-to-obsidian/">Perplexity to Obsidian</a><a href="../chatgpt-to-obsidian/">ChatGPT to Obsidian</a></div></div></footer>
 </body>

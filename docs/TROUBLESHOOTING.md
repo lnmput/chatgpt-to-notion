@@ -51,7 +51,7 @@ Follow the complete [Notion setup and reauthorization guide](NOTION_SETUP.md).
 
 ## Generated images are missing
 
-ChatGPT-generated images use source URLs that block access from external services, so they cannot be included in Notion sync. While the images are still available in the conversation, open AI Chat Backup and select **Download generated images** to save them locally.
+Generated images may use temporary or session-bound source URLs. While the images are still available in the conversation, open AI Chat Backup and select **Download generated images** to save them locally. ChatGPT and Gemini image sync to Notion is supported when the extension can read and upload the source file.
 
 Never attach a private generated image to a public issue unless you are comfortable making it public.
 

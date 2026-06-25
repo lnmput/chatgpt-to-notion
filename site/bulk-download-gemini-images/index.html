@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en"><head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Bulk Download Gemini Generated Images | AI Chat Backup</title>
+  <meta name="description" content="Use AI Chat Backup to capture Gemini generated images and save original image files in a local ZIP archive.">
+  <meta name="robots" content="index,follow,max-image-preview:large"><meta name="theme-color" content="#f4f5ed"><link rel="canonical" href="https://chatgpt-to-notion.linkcanvas.space/bulk-download-gemini-images/"><link rel="icon" href="../favicon.png" type="image/png"><link rel="apple-touch-icon" href="../favicon.png"><link rel="stylesheet" href="../styles.css">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="AI Chat Backup: ChatGPT to Notion, Obsidian &amp; Markdown"><meta property="og:title" content="Bulk Download Gemini Generated Images"><meta property="og:description" content="Capture generated images from a Gemini conversation and save them as a ZIP archive."><meta property="og:url" content="https://chatgpt-to-notion.linkcanvas.space/bulk-download-gemini-images/"><meta property="og:image" content="https://chatgpt-to-notion.linkcanvas.space/assets/ai-chat-backup-chatgpt-to-notion.png"><meta name="twitter:card" content="summary_large_image">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DQGNH0JSQ6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DQGNH0JSQ6');
+</script>
+</head><body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><nav class="nav" aria-label="Main navigation"><a class="brand" href="../" aria-label="AI Chat Backup home"><img class="brand-mark" src="../favicon.png" width="32" height="32" alt="">AI Chat Backup</a><div class="nav-links"><a href="../#guides">Guides</a><a href="https://github.com/lnmput/chatgpt-to-notion">Help</a></div><a class="button" href="https://chromewebstore.google.com/detail/chatgpt-ai-chat-backup-ma/oedpeddiacomhhfieanenlmdghkolgng">Add to Chrome</a></nav></header>
+  <main id="main" class="article">
+    <p class="breadcrumb"><a href="../">AI Chat Backup</a> / Gemini image download</p><p class="eyebrow">Generated image guide</p>
+    <h1>Bulk download Gemini generated images.</h1>
+    <p class="lede">On a Gemini chat page, AI Chat Backup first tries to use Gemini's own full-size image download controls, captures the original image responses, and packages the captured files into a local ZIP archive.</p>
+    <div class="actions"><a class="button" href="https://chromewebstore.google.com/detail/chatgpt-ai-chat-backup-ma/oedpeddiacomhhfieanenlmdghkolgng">Install AI Chat Backup</a></div>
+    <h2>Open a supported Gemini chat</h2>
+    <p>The image download button appears when the current tab is detected as a Gemini chat page. Notion authorization is not required for this action.</p>
+    <ol><li>Open the Gemini conversation on <a href="https://gemini.google.com/">gemini.google.com</a>.</li><li>Wait until the generated images are visible and fully loaded.</li><li>Open AI Chat Backup from the Chrome toolbar.</li><li>Use the image-download icon or its tooltip label, <strong>Download generated images</strong>.</li></ol>
+    <h2>How Gemini images are captured</h2>
+    <p>For Gemini, AI Chat Backup runs the image downloader in the page context so it can interact with Gemini's native full-size download buttons. It triggers those buttons, captures image responses or Blob URLs created by the page, and then builds a ZIP archive named like <strong>gemini-original-images-&lt;timestamp&gt;.zip</strong>.</p>
+    <h2>Fallback scanning</h2>
+    <p>If Gemini's original-image controls are not found, the extension falls back to scanning the page for generated image elements. It checks image tags and Gemini image components, looks for Google image hosts or Blob URLs, ignores user prompts and avatars, deduplicates sources, and saves the detected files into a ZIP archive with a <strong>gemini-&lt;conversation-id&gt;</strong> prefix.</p>
+    <div class="note"><strong>The native Gemini path is preferred.</strong> It is designed to capture the original full-size files instead of only the rendered preview when Gemini exposes a full-size download control.</div>
+    <h2>What the popup reports</h2>
+    <p>The popup starts with <strong>Preparing image downloads...</strong>. When the process finishes, it reports how many images were downloaded. If some files cannot be captured or fetched, it shows a partial-download warning instead of treating the entire batch as successful.</p>
+    <h2>If no images are found</h2>
+    <ul><li>Confirm you are on a Gemini chat page with generated images, not a blank Gemini start page.</li><li>Wait for Gemini's image cards and download controls to finish rendering.</li><li>Refresh Gemini and reopen the extension if the button is not available.</li><li>If Gemini no longer exposes the original image source or download control, the extension may not be able to recover that file.</li></ul>
+    <h2>Keep text context separately</h2>
+    <p>Use Gemini Markdown export or Notion sync for the conversation text, then keep the generated-image ZIP beside that exported note. The image downloader is focused on visual assets; text export is handled by the regular conversation export flow.</p>
+  </main>
+  <footer class="site-footer"><div class="footer-inner"><a href="../">AI Chat Backup</a><div class="footer-links"><a href="../gemini-to-notion/">Gemini to Notion</a><a href="../gemini-to-obsidian/">Gemini to Obsidian</a></div></div></footer>
+</body></html>

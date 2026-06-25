@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Export Perplexity Threads to Notion | AI Chat Backup</title>
-  <meta name="description" content="Save Perplexity threads and research directly to your Notion workspace. Preserve formatted lists, source citations, tables, and code blocks.">
+  <meta name="description" content="Save Perplexity threads and research directly to your Notion workspace. Preserve formatted answers, lists, tables, and code blocks when available.">
   <meta name="robots" content="index,follow,max-image-preview:large"><meta name="theme-color" content="#f4f5ed"><link rel="canonical" href="https://chatgpt-to-notion.linkcanvas.space/perplexity-to-notion/"><link rel="icon" href="../favicon.png" type="image/png"><link rel="apple-touch-icon" href="../favicon.png"><link rel="stylesheet" href="../styles.css">
-  <meta property="og:type" content="article"><meta property="og:site_name" content="AI Chat Backup: ChatGPT to Notion, Obsidian &amp; Markdown"><meta property="og:title" content="Export Perplexity Threads to Notion"><meta property="og:description" content="Sync Perplexity search threads, citations, and research to Notion with AI Chat Backup."><meta property="og:url" content="https://chatgpt-to-notion.linkcanvas.space/perplexity-to-notion/"><meta property="og:image" content="https://chatgpt-to-notion.linkcanvas.space/assets/ai-chat-backup-chatgpt-to-notion.png"><meta name="twitter:card" content="summary_large_image">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="AI Chat Backup: ChatGPT to Notion, Obsidian &amp; Markdown"><meta property="og:title" content="Export Perplexity Threads to Notion"><meta property="og:description" content="Sync Perplexity search threads and formatted answers to Notion with AI Chat Backup."><meta property="og:url" content="https://chatgpt-to-notion.linkcanvas.space/perplexity-to-notion/"><meta property="og:image" content="https://chatgpt-to-notion.linkcanvas.space/assets/ai-chat-backup-chatgpt-to-notion.png"><meta name="twitter:card" content="summary_large_image">
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-DQGNH0JSQ6"></script>
 <script>
@@ -23,7 +23,7 @@
     <p class="breadcrumb"><a href="../">AI Chat Backup</a> / Perplexity to Notion</p>
     <p class="eyebrow">Perplexity export guide</p>
     <h1>Sync Perplexity Threads to Notion.</h1>
-    <p class="lede">Build a searchable research database. AI Chat Backup parses Perplexity threads, formats complex list structures, retains source citations, and sends them directly to your Notion workspace.</p>
+    <p class="lede">Build a searchable research database. AI Chat Backup parses Perplexity threads, formats visible answer content, and sends the current conversation to your Notion workspace.</p>
     <div class="actions"><a class="button" href="https://chromewebstore.google.com/detail/chatgpt-ai-chat-backup-ma/oedpeddiacomhhfieanenlmdghkolgng">Install AI Chat Backup</a></div>
     <h2>Set up your Notion connection</h2>
     <ol>
@@ -32,7 +32,7 @@
       <li>Under the <strong>Notion</strong> tab, select <strong>Authorize Notion</strong>.</li>
       <li>Grant permission to let the extension create the "AI Chats" page and databases.</li>
     </ol>
-    <div class="note"><strong>Keep citations organized.</strong> Perplexity relies heavily on search citations. The extension automatically reformats inline citations (like [1], [2]) and lists their URLs at the bottom of the page, ensuring you don't lose the underlying sources when reading in Notion.</div>
+    <div class="note"><strong>Review source links after export.</strong> Perplexity pages can change how citations and source links are rendered. AI Chat Backup exports the content exposed by the page, but you should verify important references in Notion after syncing.</div>
     <h2>Sync a Perplexity thread</h2>
     <ol>
       <li>Open the Perplexity thread on <a href="https://www.perplexity.ai/">perplexity.ai</a>.</li>
@@ -48,7 +48,7 @@
       <li>Platform name (tagged as "Perplexity").</li>
       <li>Original thread URL (mapped as the source link).</li>
       <li>Formatted answers, bold text, code blocks, lists, and tables.</li>
-      <li>Citations and reference lists at the end of the transcript.</li>
+      <li>Visible links and references when they are exposed in the page content.</li>
     </ul>
     <h2>Troubleshooting Perplexity exports</h2>
     <ul>

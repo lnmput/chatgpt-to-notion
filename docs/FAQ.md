@@ -18,11 +18,11 @@ Yes. Choose a folder inside your Obsidian vault as the Markdown export folder. O
 
 ## Can I save AI-generated images?
 
-Yes. In a ChatGPT conversation, open AI Chat Backup and select **Download generated images** to save the files locally. Generated images are not included in Notion sync because their source URLs block access from external services.
+Yes. In a ChatGPT or Gemini conversation, open AI Chat Backup and select **Download generated images** to save generated images locally. ChatGPT and Gemini image sync to Notion is supported when the source image can be read and uploaded.
 
 ## Which AI platforms are supported?
 
-ChatGPT, Claude, Gemini, Google AI Studio, Perplexity, Poe, and Grok are supported. Platform changes can temporarily affect extraction.
+ChatGPT, Claude, Gemini, Google AI Studio, Perplexity, Poe, Grok, and Venice are supported. Platform changes can temporarily affect extraction.
 
 ## Can I export multiple ChatGPT conversations?
 

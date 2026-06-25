@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en"><head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Bulk Download ChatGPT Generated Images | AI Chat Backup</title>
+  <meta name="description" content="Use AI Chat Backup to collect generated images from the current ChatGPT conversation and save them as a local ZIP archive.">
+  <meta name="robots" content="index,follow,max-image-preview:large"><meta name="theme-color" content="#f4f5ed"><link rel="canonical" href="https://chatgpt-to-notion.linkcanvas.space/bulk-download-chatgpt-images/"><link rel="icon" href="../favicon.png" type="image/png"><link rel="apple-touch-icon" href="../favicon.png"><link rel="stylesheet" href="../styles.css">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="AI Chat Backup: ChatGPT to Notion, Obsidian &amp; Markdown"><meta property="og:title" content="Bulk Download ChatGPT Generated Images"><meta property="og:description" content="Collect generated images from a ChatGPT conversation and save them as a ZIP archive."><meta property="og:url" content="https://chatgpt-to-notion.linkcanvas.space/bulk-download-chatgpt-images/"><meta property="og:image" content="https://chatgpt-to-notion.linkcanvas.space/assets/ai-chat-backup-chatgpt-to-notion.png"><meta name="twitter:card" content="summary_large_image">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DQGNH0JSQ6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DQGNH0JSQ6');
+</script>
+</head><body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><nav class="nav" aria-label="Main navigation"><a class="brand" href="../" aria-label="AI Chat Backup home"><img class="brand-mark" src="../favicon.png" width="32" height="32" alt="">AI Chat Backup</a><div class="nav-links"><a href="../#guides">Guides</a><a href="https://github.com/lnmput/chatgpt-to-notion">Help</a></div><a class="button" href="https://chromewebstore.google.com/detail/chatgpt-ai-chat-backup-ma/oedpeddiacomhhfieanenlmdghkolgng">Add to Chrome</a></nav></header>
+  <main id="main" class="article">
+    <p class="breadcrumb"><a href="../">AI Chat Backup</a> / ChatGPT image download</p><p class="eyebrow">Generated image guide</p>
+    <h1>Bulk download ChatGPT generated images.</h1>
+    <p class="lede">On a ChatGPT conversation page, AI Chat Backup can scan the visible conversation for generated image sources, fetch the image files with the active browser session, and save them into a local ZIP archive.</p>
+    <div class="actions"><a class="button" href="https://chromewebstore.google.com/detail/chatgpt-ai-chat-backup-ma/oedpeddiacomhhfieanenlmdghkolgng">Install AI Chat Backup</a></div>
+    <h2>Open a supported ChatGPT page</h2>
+    <p>The image download button appears when the current tab is a ChatGPT conversation page. It is available whether or not you have connected Notion, because generated image downloads are handled as local browser downloads.</p>
+    <ol><li>Open the ChatGPT conversation that contains generated images.</li><li>Wait for the images to finish loading in the page.</li><li>Open AI Chat Backup from the Chrome toolbar.</li><li>Use the image-download icon or its tooltip label, <strong>Download generated images</strong>.</li></ol>
+    <h2>What the extension collects</h2>
+    <p>AI Chat Backup scans the conversation area for image elements that look like assistant-generated images. It excludes user-uploaded images, avatars, favicons, extension images, and tiny layout artifacts. It deduplicates repeated image URLs before creating the archive.</p>
+    <h2>What gets downloaded</h2>
+    <p>The extension fetches each detected image using the active ChatGPT browser session and creates a ZIP file. ChatGPT archives use a generated filename prefix such as <strong>gpt-&lt;conversation-id&gt;.zip</strong>, and images inside the archive are numbered with their detected file type, such as PNG, WebP, GIF, or JPG.</p>
+    <div class="note"><strong>Keep the ChatGPT tab open until the toast finishes.</strong> The popup reports <strong>Preparing image downloads...</strong>, then shows whether images were downloaded, partially downloaded, or not found.</div>
+    <h2>If no images are found</h2>
+    <ul><li>Confirm you are on a specific ChatGPT conversation, not only the ChatGPT home page.</li><li>Wait until generated images are visible in the conversation.</li><li>Refresh the page if ChatGPT has not rendered the image elements yet.</li><li>If the image source no longer loads in ChatGPT, the extension cannot recover the original file.</li></ul>
+    <h2>Use with Markdown and Notion</h2>
+    <p>Markdown export and Notion sync preserve the conversation record. Generated image files are downloaded separately because their source URLs can be temporary or session-bound. Keep the ZIP archive next to the exported Markdown file when you want both the prompt context and the visual assets.</p>
+  </main>
+  <footer class="site-footer"><div class="footer-inner"><a href="../">AI Chat Backup</a><div class="footer-links"><a href="../chatgpt-to-markdown/">ChatGPT to Markdown</a><a href="../bulk-export-chatgpt/">Batch sync ChatGPT</a></div></div></footer>
+</body></html>

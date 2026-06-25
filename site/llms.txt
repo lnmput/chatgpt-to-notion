@@ -4,7 +4,7 @@
 
 This site is the public documentation and support hub for AI Chat Backup. The extension itself is distributed through the Chrome Web Store; its source code is not included in this documentation repository. Local Markdown export does not require a Notion account. Conversation content is sent to Notion when the user chooses a sync action.
 
-Supported AI platforms documented by the project are ChatGPT, Claude, Gemini, Google AI Studio, Perplexity, Poe, and Grok. Platform interface changes may temporarily affect conversation extraction.
+Supported AI platforms documented by the project are ChatGPT, Claude, Gemini, Google AI Studio, Perplexity, Poe, Grok, and Venice. Platform interface changes may temporarily affect conversation extraction.
 
 ## Product
 
@@ -16,7 +16,7 @@ Supported AI platforms documented by the project are ChatGPT, Claude, Gemini, Go
 - [Export ChatGPT to Notion](https://chatgpt-to-notion.linkcanvas.space/chatgpt-to-notion/): Authorize the AI Chats template and sync the current conversation
 - [Export ChatGPT to Markdown](https://chatgpt-to-notion.linkcanvas.space/chatgpt-to-markdown/): Create portable files with useful structure and optional YAML metadata
 - [Save ChatGPT to Obsidian](https://chatgpt-to-notion.linkcanvas.space/chatgpt-to-obsidian/): Write Markdown exports into a user-selected Obsidian vault folder
-- [Batch Sync ChatGPT Conversations](https://chatgpt-to-notion.linkcanvas.space/bulk-export-chatgpt/): Sync up to five latest or selected ChatGPT conversations to Notion per free batch
+- [Batch Sync ChatGPT Conversations](https://chatgpt-to-notion.linkcanvas.space/bulk-export-chatgpt/): Sync up to six selected ChatGPT conversations to Notion per free batch
 
 ## Other AI Platform Guides
 
@@ -24,8 +24,10 @@ Supported AI platforms documented by the project are ChatGPT, Claude, Gemini, Go
 - [Save Claude to Obsidian](https://chatgpt-to-notion.linkcanvas.space/claude-to-obsidian/): Export Claude conversations and code artifacts to an Obsidian vault
 - [Export Gemini to Notion](https://chatgpt-to-notion.linkcanvas.space/gemini-to-notion/): Save Gemini conversations to Notion, Markdown, or Obsidian
 - [Save Gemini to Obsidian](https://chatgpt-to-notion.linkcanvas.space/gemini-to-obsidian/): Save Gemini responses and logical structures to Obsidian
-- [Export Perplexity to Notion](https://chatgpt-to-notion.linkcanvas.space/perplexity-to-notion/): Sync Perplexity search threads, citations, and answers to Notion
+- [Export Perplexity to Notion](https://chatgpt-to-notion.linkcanvas.space/perplexity-to-notion/): Sync Perplexity search threads and formatted answers to Notion
 - [Save Perplexity to Obsidian](https://chatgpt-to-notion.linkcanvas.space/perplexity-to-obsidian/): Export Perplexity threads directly to a local Obsidian vault
+- [Bulk Download ChatGPT Generated Images](https://chatgpt-to-notion.linkcanvas.space/bulk-download-chatgpt-images/): Download all generated images from the current ChatGPT conversation
+- [Bulk Download Gemini Generated Images](https://chatgpt-to-notion.linkcanvas.space/bulk-download-gemini-images/): Download generated images from the current Gemini conversation
 
 ## Support and Policies
 

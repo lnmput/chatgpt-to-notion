@@ -11,11 +11,11 @@
 [Visit the ChatGPT to Notion website](https://lnmput.github.io/chatgpt-to-notion/) ·
 [Install AI Chat Backup from the Chrome Web Store](https://chromewebstore.google.com/detail/chatgpt-ai-chat-backup-ma/oedpeddiacomhhfieanenlmdghkolgng)
 
-AI Chat Backup is a Chrome extension for saving AI conversations outside the chat platform. Export ChatGPT conversations to Markdown, store them in an Obsidian vault, or sync selected chats to Notion. The extension also works with Claude, Gemini, Google AI Studio, Perplexity, Poe, and Grok.
+AI Chat Backup is a Chrome extension for saving AI conversations outside the chat platform. Export ChatGPT conversations to Markdown, store them in an Obsidian vault, or sync selected chats to Notion. The extension also works with Claude, Gemini, Google AI Studio, Perplexity, Poe, Grok, and Venice.
 
 This repository is the public documentation and support hub for the extension. It contains installation instructions, user guides, troubleshooting steps, frequently asked questions, and feedback channels.
 
-[![AI Chat Backup exports ChatGPT, Claude, Gemini, Grok, Perplexity, Poe, and Google AI Studio conversations to Notion](assets/ai-chat-backup-chatgpt-to-notion.png)](https://chromewebstore.google.com/detail/chatgpt-ai-chat-backup-ma/oedpeddiacomhhfieanenlmdghkolgng)
+[![AI Chat Backup exports ChatGPT, Claude, Gemini, Grok, Perplexity, Poe, Google AI Studio, and Venice conversations to Notion](assets/ai-chat-backup-chatgpt-to-notion.png)](https://chromewebstore.google.com/detail/chatgpt-ai-chat-backup-ma/oedpeddiacomhhfieanenlmdghkolgng)
 
 ## Install the Chrome extension
 
@@ -36,7 +36,7 @@ Notion is optional. You can export conversations as local Markdown files without
 - **ChatGPT history backup:** batch-process supported ChatGPT conversations when the batch feature is available.
 - **Multiple AI platforms:** use one export workflow across popular AI chat services.
 - **Structured content:** preserve headings, lists, links, code blocks, and tables where the source platform exposes them.
-- **Generated image downloads:** save ChatGPT-generated images locally with a separate download action. These images are not included in Notion sync because their source URLs block external access.
+- **Generated image handling:** save generated images locally with a separate download action. ChatGPT and Gemini image sync to Notion is supported when the source image can be read and uploaded.
 - **Local-first option:** use Markdown export without connecting Notion.
 
 ## Supported AI chat platforms
@@ -50,6 +50,7 @@ Notion is optional. You can export conversations as local Markdown files without
 | Perplexity | Yes | Yes |
 | Poe | Yes | Yes |
 | Grok | Yes | Yes |
+| Venice | Yes | Yes |
 
 Platform interfaces change regularly. If an export button disappears or content is missing, see [Troubleshooting](docs/TROUBLESHOOTING.md) or [report a bug](https://github.com/lnmput/chatgpt-to-notion/issues/new?template=bug_report.yml).
 
