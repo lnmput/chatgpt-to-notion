@@ -773,6 +773,13 @@ details p { max-width: 42rem; margin: -0.25rem 0 1.5rem; color: var(--muted); }
   .guides { grid-template-columns: repeat(6, minmax(0, 1fr)); }
   .guide-link { grid-column: span 2; }
   .guide-wide { grid-column: span 4; }
+  .guide-link:not(.guide-primary, .guide-wide, .guide-full):has(
+    + .guide-link:not(.guide-primary, .guide-wide, .guide-full)
+    + .guide-link:not(.guide-primary, .guide-wide, .guide-full)
+    + .guide-full
+  ) {
+    grid-row: span 2;
+  }
   .guide-primary,
   .guide-full { grid-column: 1 / -1; min-height: 16rem; }
 }
