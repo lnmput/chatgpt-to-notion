@@ -11,7 +11,7 @@
 [Visit the ChatGPT to Notion website](https://lnmput.github.io/chatgpt-to-notion/) ·
 [Install AI Chat Backup from the Chrome Web Store](https://chromewebstore.google.com/detail/chatgpt-ai-chat-backup-ma/oedpeddiacomhhfieanenlmdghkolgng)
 
-AI Chat Backup is a Chrome extension for saving AI conversations outside the chat platform. Export ChatGPT conversations to Markdown, store them in an Obsidian vault, or sync selected chats to Notion. The extension also works with Claude, Gemini, Google AI Studio, Perplexity, Poe, Grok, and Venice.
+AI Chat Backup is a Chrome extension for saving AI conversations outside the chat platform. Export ChatGPT conversations to Markdown, store them in an Obsidian vault, or sync selected chats to Notion. The extension also works with Claude, Gemini, DeepSeek, Kimi, Google AI Studio, Perplexity, Poe, Grok, and Venice.
 
 This repository is the public documentation and support hub for the extension. It contains installation instructions, user guides, troubleshooting steps, frequently asked questions, and feedback channels.
 
@@ -46,6 +46,8 @@ Notion is optional. You can export conversations as local Markdown files without
 | ChatGPT | Yes | Yes |
 | Claude | Yes | Yes |
 | Gemini | Yes | Yes |
+| DeepSeek | Yes | Yes |
+| Kimi | Yes | Yes |
 | Google AI Studio | Yes | Yes |
 | Perplexity | Yes | Yes |
 | Poe | Yes | Yes |

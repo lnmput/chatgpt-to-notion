@@ -4,7 +4,7 @@
 
 This site is the public documentation and support hub for AI Chat Backup. The extension itself is distributed through the Chrome Web Store; its source code is not included in this documentation repository. Local Markdown export does not require a Notion account. Conversation content is sent to Notion when the user chooses a sync action.
 
-Supported AI platforms documented by the project are ChatGPT, Claude, Gemini, Google AI Studio, Perplexity, Poe, Grok, and Venice. Platform interface changes may temporarily affect conversation extraction.
+Supported AI platforms documented by the project are ChatGPT, Claude, Gemini, DeepSeek, Kimi, Google AI Studio, Perplexity, Poe, Grok, and Venice. Platform interface changes may temporarily affect conversation extraction.
 
 ## Product
 
@@ -23,6 +23,8 @@ Supported AI platforms documented by the project are ChatGPT, Claude, Gemini, Go
 - [Export Claude to Notion](https://chatgpt-to-notion.linkcanvas.space/claude-to-notion/): Save long-form Claude conversations to Notion or Markdown
 - [Save Claude to Obsidian](https://chatgpt-to-notion.linkcanvas.space/claude-to-obsidian/): Export Claude conversations and code artifacts to an Obsidian vault
 - [Export Gemini to Notion](https://chatgpt-to-notion.linkcanvas.space/gemini-to-notion/): Save Gemini conversations to Notion, Markdown, or Obsidian
+- [Export DeepSeek to Notion](https://chatgpt-to-notion.linkcanvas.space/deepseek-to-notion/): Save DeepSeek answers, reasoning, and code to Notion, Markdown, or Obsidian
+- [Export Kimi to Notion](https://chatgpt-to-notion.linkcanvas.space/kimi-to-notion/): Save Kimi research, summaries, and code to Notion, Markdown, or Obsidian
 - [Save Gemini to Obsidian](https://chatgpt-to-notion.linkcanvas.space/gemini-to-obsidian/): Save Gemini responses and logical structures to Obsidian
 - [Export Perplexity to Notion](https://chatgpt-to-notion.linkcanvas.space/perplexity-to-notion/): Sync Perplexity search threads and formatted answers to Notion
 - [Save Perplexity to Obsidian](https://chatgpt-to-notion.linkcanvas.space/perplexity-to-obsidian/): Export Perplexity threads directly to a local Obsidian vault

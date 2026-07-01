@@ -55,6 +55,8 @@ Review generated files before using automated publishing or knowledge-base pipel
 - ChatGPT
 - Claude
 - Gemini
+- DeepSeek
+- Kimi
 - Google AI Studio
 - Perplexity
 - Poe

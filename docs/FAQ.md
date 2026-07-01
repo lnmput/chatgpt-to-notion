@@ -22,7 +22,7 @@ Yes. In a ChatGPT or Gemini conversation, open AI Chat Backup and select **Downl
 
 ## Which AI platforms are supported?
 
-ChatGPT, Claude, Gemini, Google AI Studio, Perplexity, Poe, Grok, and Venice are supported. Platform changes can temporarily affect extraction.
+ChatGPT, Claude, Gemini, DeepSeek, Kimi, Google AI Studio, Perplexity, Poe, Grok, and Venice are supported. Platform changes can temporarily affect extraction.
 
 ## Can I export multiple ChatGPT conversations?
 
